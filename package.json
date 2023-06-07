@@ -1,11 +1,18 @@
 {
   "name": "@toyfield/test",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "pnpm run build"
   },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",

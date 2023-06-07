@@ -42,7 +42,8 @@
 ### 4. 发布 package
 
 ```shell
-npm publish
+# 根据自己的管理软件进行 publish，publish 前一般要 build
+pnpm publish
 ```
 
 ### monorepo
