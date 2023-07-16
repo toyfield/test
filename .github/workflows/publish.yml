@@ -18,4 +18,4 @@ jobs:
     steps:
       - uses: toyfield/actions/publish@main
         with:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_T }}
+          token: ${{ secrets.NPM_T }}
