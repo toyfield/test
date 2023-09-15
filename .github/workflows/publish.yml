@@ -11,9 +11,7 @@ on:
 
 jobs:
   publish-gpr:
-    runs-on: ubuntu-latest
+    uses: toyfield/actions/.github/workflows/pnpm-install-npm-publish.yaml@main
     permissions:
       contents: read
       packages: write
-    steps:
-      - uses: toyfield/actions/publish@main
