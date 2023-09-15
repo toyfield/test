@@ -17,5 +17,3 @@ jobs:
       packages: write
     steps:
       - uses: toyfield/actions/publish@main
-        with:
-          token: ${{ secrets.NPM_T }}
